@@ -1,0 +1,270 @@
+/*header start*/
+body{
+	margin: 0;
+	padding: 0;
+}
+header{
+	padding: 15px 0;
+	/*border: 1px;*/
+}
+
+.wrapper {
+	width: 80%;
+	/*border:1px solid red;*/
+	margin: auto;
+	overflow: hidden;
+}
+
+.logo {width: 20%;
+	/*border: 1px solid red;*/
+	float: left;
+}
+
+.menu {width: 75%;
+	/*border: 1px solid red;*/
+	float: right;
+	margin-top: 10px;
+}
+.logo img{
+	width: 100%;
+}
+.menu ul{
+	float: right;
+}
+.menu ul li{ list-style: none;
+     float: left;
+ }
+
+.menu ul li a{
+	text-decoration: none;
+ color: #535D69;
+ font-weight: 700;
+ font-size: 15px;
+ font-family: sans-serif;
+ padding: 0 15px;
+ display: inline-block;
+ transition: .5s;
+}
+.menu ul li:last-child a{
+	padding-right: 0;
+}
+.menu ul li a:hover{
+	color: #BD233f;
+}
+/*header end*/
+
+/*banner start*/
+.banner{
+	background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../images/banner.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-position: center;
+}
+.b_content{
+	padding-top: 150px;
+	padding-bottom: 150px;
+	width: 55%;
+	/*border: 1px solid white;*/
+}
+.b_content h1{
+	font-family: sans-serif;
+	font-size:72px;
+	font-weight: 700;
+	color: white;
+    letter-spacing: 2px;
+    margin-bottom:25px ;
+    margin-top: 0;
+}
+.b_content p{
+	font-family: sans-serif;
+	font-size: 16px;
+	color: white;
+	margin-top: 0;
+	margin-bottom: 16px;
+}
+.b_content button{
+	width:260px; 
+	height:50px;
+	background-color: #BE2342;
+	border: none;
+	font-family: sans-serif;
+	font-size:15px;
+	text-transform: uppercase;
+	margin-top: 50px;
+	color: white;
+	cursor: wait;
+}
+.b_content button:focus{
+	outline: 0;
+}
+/*banner end*/
+/*how it works start*/
+.works{
+	padding: 100px 0;
+}
+.first_part{
+	font-family: sans-serif;
+	width: 70%;
+	/*border: 1px solid red;*/
+	margin:0 auto;
+	text-align: center;
+	margin-bottom: 70px;
+}
+.first_part h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #1F1F1F;
+	margin-bottom: 30px;
+}
+.first_part p{
+	font-size: 16px;
+	color: #525C68;
+	line-height: 23px;
+	margin: 0;
+}
+.seocend_part{
+	overflow: hidden;
+}
+.single_item{
+	float: left;
+	width: 23%;
+	/*border: 1px solid red;*/
+	text-align:center;
+	padding: 0px 1.9%;
+	margin: 0px 3.16%;
+}
+.single_item img{
+	width: 50%;
+}
+.single_item p{
+	font-family: sans-serif;
+	font-size: 17px;
+	font-weight: bold;
+	color: black;
+}
+/*how it works end*/
+/*LEEN START*/
+.video_sect{
+	padding: 100px 0;
+	background-color: #F4F4F4;
+}
+.lern_video{
+	overflow: hidden;
+	
+}
+.lern_title{
+    margin-right: 30px;
+    float: left;
+    width: 48%;
+    /* border: 1px solid black; */
+    font-family: sans-serif;
+}
+.lern_title h1{
+	font-size: 30px;
+	text-transform: uppercase;
+	color: #1F1F1F;
+	margin-bottom: 30px;
+}
+.lern_title p{
+	font-size: 16px;
+	font-weight: bold;
+	color: #828992;
+}
+.lern_title button{
+	width: 130px;
+    height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #BF2C46;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.video_org{
+	width: 48%;
+    float: right;
+    /* border: 1px solid red;*/
+}
+/*LEEN end*/
+/*features start*/
+.features{
+	font-family: sans-serif;
+	padding-top: 80px;
+}
+.features_head{
+	text-align: center;
+	
+}
+.features_head h1{
+	color: black;
+}
+.features_head p{
+	color: #828992;
+	margin: 0% 23%;
+	line-height: 23px;
+}
+.features_sec{
+    margin-top: 35px;
+ }
+
+.single_sec{
+    width: 30%;
+    height: 260px;
+    float: left;
+    border: 1px solid #eee8e8;
+    margin-right: 1.5%;
+    margin-bottom: 22px;
+    margin-left: 1.5%;
+
+}
+.single_sec img{
+	display: block;
+	margin-top: 30px;
+    margin-bottom: auto;
+    margin-left: 130px;
+}
+.single_sec h2{
+   text-align: center;
+   margin-top: 36px;
+   margin-bottom: 10px;
+   padding-top: 10px;
+}
+.single_sec p{
+	text-align: center;
+	line-height: 23px;
+	margin-top: 36px;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: #828992;
+}
+/*features start*/
+/* All Features Section Start*/
+.all a{
+	text-decoration: none;
+}
+.see_all{
+	width: 200px;
+    height: 35px;
+    font-size: 15px;
+    text-transform: uppercase;
+    background: #BF2C46;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    margin:70px auto 20px;
+    display: block;
+}
+/* All Features Section Start*/
+/*Footer start*/
+.last{background-color: #535D69;}
+.last p{
+	color:#FFFFFF;
+	font-size: 18px;
+	text-align: center;
+	padding: 21px 0px;
+}
+/*Footer start*/
